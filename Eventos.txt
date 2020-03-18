@@ -1,0 +1,90 @@
+tô só de carona aqui, me mostra no que vc tá trabalhando
+blz
+tava fazendo os testes usando aqueles eventos quve você me passou, ai fiz o do on click, e do hover
+mas acho que estou fazendo do jeito errado, porque não estou usando a tag <script>
+esse ultimo eu não to conseguindo fazer
+tava pesquisando sobre ele denovo agora
+
+certo
+existem 3 formas de usar javascript:
+* inline, ou seja, misturado com o html, dentro de um atributo
+   <button onclick="alert('Evento onClick feito com sucesso')">Clique-me</button>
+* dentro de uma tag <script>
+   <script>
+	// Aqui dentro vocë pode usar seu código javascript
+   </script>
+* dentro de um arquivo .js
+   appplication.js por exemplo.
+Entendeu?
+
+sim.
+então posso usar qualquer um deles.
+uma coisa que to tendo dificuldades, quando quero adicionar cores no fundo do parágrafo, eu tenho que necessáriamente usar o css?
+
+sim. HTML define a estrutura do documento, o CSS define o estilo documento e o javascript define o comportamento de um elemento. 
+É possível inserir estilo com o JS e até mesmo colocar CSS diretamento dentro de um elemento HTML, porém isso não é recomendado, 
+por que o código fica muito sujo e conforme o projeto vai crescendo fica difícil de dar manutenção
+
+Vamos lá, vamos dar uma olhada nos eventos, você usou eles direitinho inline, agora faça a mesma coisa dentro do arquivo application.js
+
+ai é que ta a dificuldade que eu estava te falando, não estou conseguindo fazer isso.
+
+certo, vou te ajudar um pouco nisso, esse aqui é um site massa: https://www.google.com kkk
+
+sacou?
+
+sim, tenho que treinar mais sobre id, var, class, não sei quando usar
+
+certo, estes conceitos são bem simples:
+pense da seguinte forma existem três partes de uma página web:
+   * HTML, a estrutura, ou seja, é como você organiza os elementos na página
+   * CSS, o estilo, é como você define a aparência dos elementos na página
+   * JS, é o que dá vida aos elementos da página, através do JS você consegue acessar atributos da estrutura, de um elemento, ou seja o HTML
+     e também do estilo do elemento, o CSS
+
+daí chegamos as suas dúvidas:
+   * id e class são atributos HTML e tem os seguintes propósitos:
+       - identificar um elemento, pra que você possa alterar suas propriedades no JS e no CSS
+     eles são o famosos "seletores", justamento por que permitem que você selecione um elemento em um documento HTML
+
+     É muito importante que você saiba o seguinte:
+       - classes, são seletores de N elementos com o mesmo nome de classe
+       - Id é um seletor para um único elemento no documento.
+
+   * var é referente somente ao javascript, ela é usada para definir uma variável local, vamos tratar disso mais adiante.
+
+Faz o seguinte, tenta dar uma pesquisada em como adicioanar o evento de hover, mas lá no arquivo application.js
+
+certo 
+
+uma dica, tente copiar as etapas que executei pra fazer o evento de click, a lógica é a mesma.
+
+pra que serve esses "$"?
+
+o $ é uma variável de uma biblioteca antiga para manipultação de objetos no javascript, o JQuery, é importante que você conheça esta tecnologia, mas prefiro que você 
+faça os eventos usando somente javascript, por que na ferramenta nova que vamos aprender, não existem estas facilidades do JQuery
+
+entendi
+outra coisa, onmouseover é a mesma coisa que hover? ou é so mouseover? vi alguns videos hoje e eles estavam justamente falando que o hover é uma função do JQuery, e quando esta usando Js se usa mouseover. ta certo?
+sim, é isso mesmo.
+
+eu tava sendo muito burro, eu so lia e tentava fazer por conta prórpia, devia estar copiando e colando os codigos ja pronto e fazer as alterações necessárias
+
+tipo, é muito bom poder escrever cada função enquanto vc tá aprendendo, por que você cria um negócio que se chama memória muscular, vc vai assimilar melhor, porém, como você tá com um prazo apertado, contanto que você entenda o que está acontecendo está ok, deixa eu te explicar passo a passo o que vc fez
+
+entendeu o fluxo do evento? Ele começa com um click no elemento e então o evento que você criou pra aquele elemento lá em application.js é chamado e então a função que você chamou de dentro do evento é executada.
+
+entendi como funciona, porem ainda tenho dificuldades por exemplo na aplicação de .getElementById, .addEventListener, mas isso é estudar. Dê uma olhada nos tutoriais de javascript no Youtube e na web.
+
+e não se preocupe com essa dificuldade, é normal por que são muitos conceitos novos
+assim que passar essa correria da entrevista, vamos fazer um abc do javascript, mostrando o que é uma variável, o que são funções, quais são os tipos de dados disponíveis e etc
+Tenho que ir primo, tô moído e quero acordar cedo pra começar a ralação, faz o seguinte, comita este código pro seu repositório do Git, pra eu poder acompanhar de lá.
+
+   beleza, vou fazer isso. fica com Deus então, amanhã quando você estiver disponivel me manda msg, na parte da manhã ate as 11:00 estou a disposição pra qualquer coisa, depois so 17:30
+
+De boa, pode deixar que tendo uma brecha apareço pra espiar o que tu tá fazendo, aproveita esse tempo pra fazer um componente usando o que você aprendeu sobre os eventos do javascript, sobre o html e o css e não se esquece de commitar o código, isso é muito importante, isso tem que virar rotina pra vc
+tenta fazer aquele componente que te enviei pelo zap ou o do PDCA, pode ser bem simples mesmo, o importante é ter as letras e quando clicar na letra, exibir o conteúdo associado a letra selecionada.
+Fica com Deus tbem.
+
+amém!
+
